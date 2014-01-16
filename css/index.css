@@ -1,0 +1,22 @@
+#ND-standard-header {
+	/* The old syntax, deprecated, but still needed, prefixed, for WebKit-based and old browsers */
+	background: -prefix-linear-gradient(top, #0B3A70, #002b5b 85%, #001b47);
+	/* The new syntax needed by standard-compliant browsers (Opera 12.1, IE 10, Fx 16 onwards), without prefix */
+	background: linear-gradient(to bottom, #0B3A70, #002b5b 85%, #001b47);
+	/*background-color: 	#002b5b;*/
+	height: 			50px;
+	padding-left: 		25px;
+	line-height: 3.5em;
+	margin: 0;
+	font-size: 15px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: white;
+	font-weight: normal;
+	font-family: "Adobe Garamond Pro", Garamond, Georgia, Times, "Times New Roman", serif;
+}
+
+/* For "of" in banner at top */
+i {
+	text-transform: none;
+}
