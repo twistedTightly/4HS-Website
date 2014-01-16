@@ -29,3 +29,16 @@ body {
 i {
 	text-transform: none;
 }
+
+.main-menu {
+	width: 15%;
+	float: left;
+	background: #bbb;
+}
+
+#logo-banner {
+	width: 300px;
+	float: left;
+	background: #666;
+}
+
