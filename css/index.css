@@ -1,3 +1,12 @@
+/* TO DO:
+	- Add ND official font to banner
+*/
+
+body {
+	margin: 0;
+	/*background-image: url(images/)*/
+}
+
 #ND-standard-header {
 	/* The old syntax, deprecated, but still needed, prefixed, for WebKit-based and old browsers */
 	background: -prefix-linear-gradient(top, #0B3A70, #002b5b 85%, #001b47);
