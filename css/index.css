@@ -40,13 +40,13 @@ i {
 
 /* 3-COLUMN LAYOUT */
 .main-menu {
-	width: 15%;
+	width: 10%;
 	float: left;
 	background: #bbb;
 }
 
 #logo-banner {
-	width: 300px;
+	width: 400px;
 	float: left;
 	background: #666;
 }
