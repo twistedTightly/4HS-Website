@@ -1,5 +1,6 @@
 /* TO DO:
 	- Add ND official font to banner
+	- Add link to "University of Notre Dame"
 */
 
 * {
@@ -39,19 +40,18 @@ i {
 }
 
 /* 3-COLUMN LAYOUT */
-.main-menu {
-	width: 10%;
+.main-menu-container {
+	width: 140px;
 	float: left;
 }
 
-#logo-banner {
+#logo-banner-container {
 	width: 400px;
 	float: left;
-	background: #666;
 }
 
 /* NAV BAR */
-ul {
+ol {
 	padding-top: 50px;
 }
 
