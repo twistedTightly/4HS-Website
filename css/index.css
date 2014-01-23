@@ -68,3 +68,17 @@ nav li {
 	font-size: 1.2em;
 	font-family: "Adobe Garamond Pro", Garamond, Georgia, Times, "Times New Roman", serif;
 }
+
+/* LOGO BANNER */
+#logo-banner {
+	width: 95%;
+	height: 500px;
+	margin: 0 auto;
+	background-color: rgba(250, 250, 250, 0.3);
+}
+
+img#logo{
+	width:  100%;
+	height:	100%;
+	margin: 20px;
+}
