@@ -39,6 +39,16 @@ i {
 	text-transform: none;
 }
 
+a:link#banner-link {
+	color: inherit;
+	text-decoration: none;
+}
+
+a:visited#banner-link {
+	color: inherit;
+	text-decoration: none;
+}
+
 /* 3-COLUMN LAYOUT */
 .main-menu-container {
 	width: 140px;
