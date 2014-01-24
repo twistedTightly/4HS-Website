@@ -1,6 +1,6 @@
 /* TO DO:
 	- Add ND official font to banner
-	- Add link to "University of Notre Dame"
+	- Center logo
 */
 
 * {
@@ -10,25 +10,26 @@
 }
 
 html {
-	background: url(../img/background-stonehenge.png) no-repeat center center fixed;
-	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
+		background: url(../img/background-stonehenge.png) no-repeat center center fixed;
+-webkit-background-size: cover;
+   -moz-background-size: cover;
+  	 -o-background-size: cover;
+  		background-size: cover;
 }
 
-/* BANNER */
+
+/**** BANNER */
 #ND-standard-header {
 	/* The old syntax, deprecated, but still needed, prefixed, for WebKit-based and old browsers */
 	background: -prefix-linear-gradient(top, #0B3A70, #002b5b 85%, #001b47);
 	/* The new syntax needed by standard-compliant browsers (Opera 12.1, IE 10, Fx 16 onwards), without prefix */
 	background: linear-gradient(to bottom, #0B3A70, #002b5b 85%, #001b47);
 	/*background-color: 	#002b5b;*/
-	height: 			50px;
-	padding-left: 		25px;
+	height: 50px;
+	padding-left: 25px;
 	line-height: 3.5em;
-	margin: 0;
-	font-size: 15px;
+	margin: 0px;
+	font-size: 	15px;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	color: white;
@@ -51,7 +52,8 @@ a:visited#banner-link {
 	text-decoration: none;
 }
 
-/* 3-COLUMN LAYOUT */
+
+/**** 3-COLUMN LAYOUT */
 .main-menu-container {
 	width: 140px;
 	float: left;
@@ -62,7 +64,8 @@ a:visited#banner-link {
 	float: left;
 }
 
-/* NAV BAR */
+
+/**** NAV BAR */
 ol {
 	padding-top: 50px;
 }
@@ -81,7 +84,8 @@ nav li {
 	font-family: "Adobe Garamond Pro", Garamond, Georgia, Times, "Times New Roman", serif;
 }
 
-/* LOGO BANNER */
+
+/**** LOGO BANNER */
 #logo-banner {
 	width: 95%;
 	height: 500px;
@@ -96,7 +100,8 @@ img#logo{
 	display: block;
 }
 
-/* MAIN CONTENT */
+
+/**** MAIN CONTENT */
 #main-content-container {
 	float: right;
 	width: 50%;
