@@ -103,8 +103,7 @@ img#logo {
 /**** MAIN CONTENT */
 #main-content-container {
 	float: left;
-	width: 70%;
-	height: 800px;
-	position: relative;
+	width: 66%;
+	height: 900px;
 	background-color: rgba(250, 250, 250, 0.4);
 }
