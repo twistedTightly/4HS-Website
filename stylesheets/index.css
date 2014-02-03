@@ -72,6 +72,10 @@ a:visited#banner-link {
 
 
 /**** NAV BAR */
+nav {
+	display: none;
+}
+
 ol {
 	padding-top: 50px;
 }
