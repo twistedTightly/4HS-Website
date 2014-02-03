@@ -90,13 +90,12 @@ nav li {
 /**** LOGO BANNER */
 #logo-banner {
 	width: 85%;
-	height: 430px;
-	background-color: rgba(250, 250, 250, 0.4);
-}
-
-img#logo {
-	width: 90%;
-	height:	auto; /* Ensures proportional scaling of the image */
+	height: 450px;
+	background: url(../img/logo-banner_80.png) no-repeat center center;
+-webkit-background-size: cover;
+   -moz-background-size: cover;
+  	 -o-background-size: cover;
+  		background-size: cover;
 }
 
 
