@@ -110,6 +110,10 @@ main {
     font-size: 1.2em;
 }
 
+#dashed-line {
+	width: 100%;
+}
+
 #about-us {
     padding: 40px 0;
 }
