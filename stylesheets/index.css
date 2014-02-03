@@ -101,7 +101,7 @@ img#logo {
 
 
 /**** MAIN CONTENT */
-#main-content-container {
+main {
 	float: left;
 	width: 66%;
 	height: 900px;
