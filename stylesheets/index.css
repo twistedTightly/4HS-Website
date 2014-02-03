@@ -105,4 +105,29 @@ main {
 	width: 66%;
 	height: 900px;
 	background-color: rgba(250, 250, 250, 0.4);
+}/* Demands testing email input area */
+form {
+	margin: 40px 0px;
+}
+
+form > p {
+    padding: 20px 70px;
+}
+
+#demands-testing-info {
+	font-size: .8em;
+	line-height: 1.5em;
+}
+
+#basic-email-input, #basic-email-submit, #basic-idea-input {
+	font-size: 1.35em;
+	color: #002b5b;
+	padding: 7px;
+}
+
+#basic-email-submit {
+	background: url(../img/yellow-nav-arrow.png) no-repeat left center;
+	background-size: 100% 100%;
+	padding-right: 20px;
+	margin-left: 15px;
 }
