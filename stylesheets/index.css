@@ -163,3 +163,20 @@ form > p {
 	padding-right: 20px;
 	margin-left: 15px;
 }
+
+#basic-idea-input {
+	margin-top: 17px;
+	font-size: 1em;
+	resize: none;
+}
+
+footer {
+	padding: 40px;
+}
+
+footer > p {
+	font-size: .8em;
+	padding-bottom: 10px;
+}
+
+    
