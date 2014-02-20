@@ -1,0 +1,76 @@
+<!-- signup.html
+	 Sign up page for both ND students and alumni.
+==================================================
+				 VERSION HISTORY
+==================================================
+ + V0.9  					   Posted Feb 12, 2014
+   - Set up the basic framework.
+==================================================
+-->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="Yuxuan 'Ethan' Chen, Maribeth Rauh // Department of Computer Science and Engineering // University of Notre Dame">
+        <title>Four Horsemen Founder Society</title>
+        <link type="text/css" rel="stylesheet" href="stylesheets/index.css">
+	</head>
+
+	<body>
+		<!-- ND Web Design Standards Recommended header -->
+		<header id="ND-standard-header" role="banner"> 
+				<a href="http://nd.edu" id="banner-link">
+					University 
+					<i>of</i>
+					 Notre Dame
+				</a>
+		</header>
+
+		<div id="3-column-layout">
+		<!-- Menu on the far left-hand side -->
+			<nav class="main-menu-container">
+				<ol>
+					<li>About</li>
+					<li>Resources</li>
+					<li>Join Us</li>
+					<li>Sign In</li>
+				</ol>
+			</nav>
+
+			<!-- Nests the center and right conent areas -->
+			<div id="middle-right-column-group">
+				<!-- Main, scrollable content area with footer at bottom -->
+				<main>
+					<img src="img/Linework-large hash-gold.png" id="dashed-line"/>
+					<p>GET CONNECTED</p>
+					<p>Use your email or Google account:</p>
+					<form>
+					<button>Email</button>
+					<button>Google</button><br>
+					<input type="email" value="Email"><br>
+					<input type="password" value=""><br>
+					<input type="password" value=""><br>
+					<div><input type="radio"><label> Student </label><input type="radio"><label> Alumnus </label></div><br>
+					<label>Expand for a preview of your profile.<br>Feel free to fill in or change any content.</label><br>
+					<input type="text" value="Yuxuan Chen"><br>
+					<input type="text" value="Computer Science"><br>
+					<select>
+						<option value="">Graduation Year</option>
+						<option>2014</option>
+						<option>2015</option>
+						<option>2016</option>
+						<option>2017</option>
+					</select><br>
+					<p>Role(s):</p>
+					<input type="checkbox" >Designer<br>
+					<input type="checkbox" >Developer<br>
+					<input type="checkbox" >Mentor<br>
+					<input type="checkbox" >Mentee<br>
+					<input type="checkbox" >Manager<br>
+					<textarea>What have you done/What do you do/Specialities</textarea>
+					</form>
+				</main>
+			</div>
+		</div>
+	</body>
+</html>

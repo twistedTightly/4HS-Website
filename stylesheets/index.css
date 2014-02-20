@@ -188,3 +188,50 @@ footer > p {
 }
 
     
+/* CSS for Resume-book
+ * 	  Edited by Ethan on February 20, 2014
+ *	  Baseball card dimension is hard-coded.
+ */
+
+.resume-content {
+	text-align: center;
+}
+
+.resume-content div {
+	height: 420px;
+	width: 300px;
+}
+
+.resume-content img {
+	height: 420px;
+	width: 300px;
+	border-radius: 30px;
+}
+
+.resume-scroller { 
+	height: 420px; 
+	overflow:hidden; 
+}
+
+.resume-card {
+	display: inline-block;
+}
+
+.resume-button-wrap {
+	background-color: transparent;
+}
+
+.resume-button-wrap:hover {
+	background-color: #e6e6e6;
+}
+
+.resume-button {
+	margin: 5px;
+	background-color: transparent;
+}
+
+.resume-button img {
+	height: 42px;
+	width: 42px;
+}
+

@@ -1,0 +1,82 @@
+<!-- resume.html
+  -- The resume book page that includes student resumes in the form of baseball cards.
+  -- ==================================================
+  --				 VERSION HISTORY
+  -- ==================================================
+  -- + V0.9  				     	Posted Feb 20, 2014
+  --   * Set up the basic framework.
+  -- ==================================================
+  -->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="Yuxuan 'Ethan' Chen, Maribeth Rauh // Department of Computer Science and Engineering // University of Notre Dame">
+        <title>Four Horsemen Founder Society</title>
+        <link type="text/css" rel="stylesheet" href="stylesheets/index.css">
+
+        <!-- Include JQuery and Javascript
+          --   Editted by Ethan on 2/20/2014
+          -->
+        <script src="script/jquery-1.11.0.min.js"></script>
+        <script src="script/resume.js"></script>
+
+	</head>
+
+	<body>
+		<!-- ND Web Design Standards Recommended header -->
+		<header id="ND-standard-header" role="banner"> 
+				<a href="http://nd.edu" id="banner-link">
+					University 
+					<i>of</i>
+					 Notre Dame
+				</a>
+		</header>
+
+		<div id="3-column-layout">
+		<!-- Menu on the far left-hand side -->
+			<nav class="main-menu-container">
+				<ol>
+					<li>About</li>
+					<li>Resources</li>
+					<li>Join Us</li>
+					<li>Sign In</li>
+				</ol>
+			</nav>
+
+			<!-- Nests the center and right conent areas -->
+			<div id="middle-right-column-group">
+				<!-- Main, scrollable content area with footer at bottom -->
+				<main>
+
+					<!-- Resume book 
+					  -- 	Edited by Ethan on February 20, 2014 
+					  -->
+					
+					<div class="resume-book">
+						<div class="resume-button-wrap">
+						<button type="button" class="resume-button"
+						id="up-button">
+							<img src="img/resume/resume-up_button.png">
+						</button>
+						</div>
+						<div class="resume-scroller">
+						<div class="resume-content">
+							<div class="resume-card"><img src="img/resume/resume-1.png"></div><br>
+							<div class="resume-card"><img src="img/resume/resume-2.png"></div><br>
+							<div class="resume-card"><img src="img/resume/resume-3.png"></div>
+						</div> <!-- resume-content -->
+						</div> <!-- resume-scroller -->
+						<div class="resume-button-wrap">
+						<button type="button" class="resume-button"
+						id="down-button">
+							<img src="img/resume/resume-down_button.png">
+						</button>
+						</div>
+					</div> 
+				</main>
+			</div>
+		</div>
+	</body>
+</html>
