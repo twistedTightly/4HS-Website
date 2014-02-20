@@ -94,6 +94,16 @@ nav li {
 /**** LOGO BANNER */
 #logo-banner {
 	width: 85%;
+	/*height: 450px;*/
+	background: url(../img/logo-banner_80.png) no-repeat center center;
+-webkit-background-size: cover;
+   -moz-background-size: cover;
+  	 -o-background-size: cover;
+  		background-size: cover;
+}
+
+#logo-image {
+	width: 85%;
 	height: 450px;
 	background: url(../img/logo-banner_80.png) no-repeat center center;
 -webkit-background-size: contain;
