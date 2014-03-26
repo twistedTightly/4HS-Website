@@ -140,10 +140,11 @@ header {
    background: #055082;
 }
 
-
-
-
-
+#resume-content {
+	position: relative;
+	height: 420px;
+	width: 300px;
+}
 
 
 

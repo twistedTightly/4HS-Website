@@ -1,3 +1,4 @@
+/* Commented out by Ethan on March 26, 2014
 $(document).ready(function() {
     $("#down-button").hover(function(){
             animateContent("down");
@@ -20,3 +21,11 @@ function animateContent(direction) {
     
     $('.resume-content').animate({ "marginTop": animationOffset + "px" }, "slow");
 }
+*/
+
+jQuery("#resume-content").smoothDivScroll({
+    autoScrollingMode: "always",
+    autoScrollingDirection: "endlessloopbottom",
+    autoScrollingStep: 1,
+    autoScrollingInterval: 100
+});

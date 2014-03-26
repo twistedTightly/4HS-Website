@@ -204,7 +204,9 @@ footer > p {
  */
 
 .resume-content {
-	text-align: center;
+	position: relative;
+	height: 420px;
+	width: 300px;
 }
 
 .resume-content div {
@@ -244,4 +246,5 @@ footer > p {
 	height: 42px;
 	width: 42px;
 }
+
 
