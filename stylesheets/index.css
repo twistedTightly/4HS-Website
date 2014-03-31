@@ -36,6 +36,8 @@ html {
 	letter-spacing: 3px;
 	color: white;
 	font-weight: normal;
+	position: fixed;
+	width: 100%;
 }
 
 /* For "of" in banner at top */
@@ -58,6 +60,7 @@ a:visited#banner-link {
 .main-menu-container {
 	width: 15%;
 	float: left;
+	margin-top: 50px;
 }
 
 #middle-right-column-group {
@@ -94,12 +97,12 @@ nav li {
 /**** LOGO BANNER */
 #logo-banner {
 	width: 85%;
-	/*height: 450px;*/
+	/*height: 450px;
 	background: url(../img/logo-banner_80.png) no-repeat center center;
 -webkit-background-size: cover;
    -moz-background-size: cover;
   	 -o-background-size: cover;
-  		background-size: cover;
+  		background-size: cover;*/
 }
 
 #logo-image {
@@ -122,6 +125,7 @@ main {
     line-height: 1.5em;
     text-align: center;
     font-size: 1.2em;
+    margin-top: 50px;
 }
 
 #dashed-line {
