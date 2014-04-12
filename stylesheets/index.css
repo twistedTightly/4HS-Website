@@ -21,6 +21,15 @@ html {
 
 
 /**** BANNER */
+blockquote {
+    padding: 3% 10%;
+}
+
+em {
+	font-family: "Adobe Garamond Pro", Garamond, Georgia, Times, "Times New Roman", serif;
+    font-size: 1.35em;
+}
+
 #ND-standard-header {
 	/* The old syntax, deprecated, but still needed, prefixed, for WebKit-based and old browsers */
 	background: -prefix-linear-gradient(top, #0B3A70, #002b5b 85%, #001b47);
@@ -128,26 +137,23 @@ main {
 }
 
 main > div > p {
-    padding: 0px 70px;
-}
-
-em {
-    font-family: "Adobe Garamond Pro", Garamond, Georgia, Times, "Times New Roman", serif;
-    font-size: 1.35em;
+    padding: 0px 10%;
 }
 
 div#about-us-main-idea {
     background: url(../img/large-emphasis-arrow_large.png) no-repeat;
     background-size:100% 100%;
     margin: 35px 0;
-    padding: 10px 35px 10px 70px;
+    padding: 0 8% 3% 10%;
     line-height: normal;
 }
 
 div#about-us-main-idea > h3 {
-    text-align: left;
-    width: 57%;
-    padding-bottom: 15px;
+    text-align: center;
+	width: 75%;
+	padding: 4%;
+	padding-left: 0;
+	background-color: #DCB439;
 }
 
 /* Demands testing email input area */
