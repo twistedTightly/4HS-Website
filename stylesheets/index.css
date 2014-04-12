@@ -18,6 +18,22 @@ html {
   		color: #002b5b;
   		font-family: "Adobe Garamond Pro", Garamond, Georgia, Times, "Times New Roman", serif;
 }
+body {
+  	font-size: 1.1em;
+}
+@media (max-width: 800px) {
+  body {
+   font-size: 1em; 
+  }
+}
+@media (max-width: 600px) {
+  body {
+   font-size: .9em; 
+  }
+  input[type="submit"] {
+  	font-size: .7em;
+  }
+}
 
 
 /**** BANNER */
@@ -40,7 +56,7 @@ em {
 	padding-left: 25px;
 	line-height: 3.5em;
 	margin: 0px;
-	font-size: 	15px;
+	font-size: 	.9em;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	color: white;
@@ -176,7 +192,6 @@ form > p {
 }
 
 #basic-email-input, #basic-email-submit, #basic-idea-input {
-	font-size: 1.35em;
 	color: #002b5b;
 	padding: 7px;
 	font-family: "Helvetica Neue", Arial, Helvetica, Verdana, sans-serif;
@@ -189,18 +204,20 @@ form > p {
 	background-size: 100% 100%;
 	padding-right: 20px;
 	margin-left: 15px;
+	font-size: 1em;
 }
 
 #basic-email-input {
 	width: 50%;
+	font-size: 1em;
 }
 
 #basic-idea-input {
 	margin-top: 17px;
 	margin-bottom: 17px;
-	font-size: 1em;
 	resize: none;
 	width: 80%;
+	font-size: 1em;
 }
 
 footer {
