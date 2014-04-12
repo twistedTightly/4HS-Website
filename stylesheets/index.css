@@ -10,7 +10,7 @@
 }
 
 html {
-		background: url(../img/background-stonehenge-with-logo.png) no-repeat center center fixed;
+		background: url(../img/background-stonehenge.png) no-repeat center center fixed;
 -webkit-background-size: cover;
    -moz-background-size: cover;
   	 -o-background-size: cover;
@@ -97,22 +97,13 @@ nav li {
 /**** LOGO BANNER */
 #logo-banner {
 	width: 85%;
-	/*height: 450px;
-	background: url(../img/logo-banner_80.png) no-repeat center center;
--webkit-background-size: cover;
-   -moz-background-size: cover;
-  	 -o-background-size: cover;
-  		background-size: cover;*/
+	height: 20px;
 }
-
-#logo-image {
-	width: 85%;
-	height: 450px;
-	/*background: url(../img/logo-banner_80.png) no-repeat center center;
--webkit-background-size: contain;
-   -moz-background-size: contain;
-  	 -o-background-size: contain;
-  		background-size: contain;*/
+#logo {
+	/*width: 30%;
+	height: auto;*/
+	position: fixed;
+	width: 22%;
 }
 
 
