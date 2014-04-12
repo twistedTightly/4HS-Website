@@ -7,6 +7,8 @@
 		<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
         <title>Four Horsemen Founder Society</title>
         <link type="text/css" rel="stylesheet" href="stylesheets/index.css">
+        <script src="script/jquery-1.11.0.min.js"></script>
+        <script src="http://www.parsecdn.com/js/parse-1.2.18.min.js"></script>
 	</head>
 
 	<body>
@@ -41,7 +43,7 @@
 
 				<!-- Main, scrollable content area with footer at bottom -->
 				<main>
-					<form action="" method="post" name="sign-up-form">
+					<form action="" id="feedback-form" name="feedback-form" method="post" name="sign-up-form">
 						<h2 id="demands-testing-header">Interested in joining us?</h2>
 						<p id="demands-testing-info">Let us know you're interested so we can develop a network most suited to your needs. We promise not to flood your inbox; we'll simply let you know when we launch.</p>
 						<input id="basic-email-input" type="email" placeholder="Your email" name="email-input"/>
@@ -93,5 +95,6 @@
 		  ga('send', 'pageview');
 
 		</script>
+		<script src="script/uploadData.js"></script>
 	</body>
 </html>

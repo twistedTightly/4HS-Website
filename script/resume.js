@@ -23,6 +23,7 @@ function animateContent(direction) {
 }
 */
 
+/* Realize the scrolling resume design */
 jQuery("#resume-content").smoothDivScroll({
     autoScrollingMode: "always",
     autoScrollingDirection: "endlessloopbottom",
