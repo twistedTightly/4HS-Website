@@ -1,0 +1,13 @@
+/* Styles for the site when viewed on a screen that is 700px or less */
+
+#logo-banner-container {
+	display: none;
+}
+main {
+	float: none;
+	margin: auto;
+	width: 90%;
+}
+#middle-right-column-group {
+	padding-left: 0;
+}
