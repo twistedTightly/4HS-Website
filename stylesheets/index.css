@@ -80,7 +80,10 @@ em {
 }
 #middle-right-column-group {
 	float: right;
-	width: 85%;
+	/*width: 85%;*/
+	/* Remove next two CSS rules when navigation bar added */
+	width: 100%;
+	padding-left: 4%;
 	margin-top: 50px;
 }
 #logo-banner-container {
