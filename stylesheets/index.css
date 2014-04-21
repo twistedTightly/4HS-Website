@@ -144,14 +144,14 @@ main {
 main > div > p {
     padding: 0px 10%;
 }
-div#about-us-main-idea {
+#about-us-main-idea {
     background: url(../img/large-emphasis-arrow_large.png) no-repeat;
     background-size:100% 100%;
     margin: 35px 0;
     padding: 0 8% 3% 10%;
     line-height: normal;
 }
-div#about-us-main-idea > h3 {
+#about-us-main-idea > h3 {
     text-align: center;
 	width: 75%;
 	padding: 4%;

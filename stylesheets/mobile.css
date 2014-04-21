@@ -1,5 +1,7 @@
 /* Styles for the site when viewed on a screen that is 700px or less */
 
+/* LAYOUT
+Change to single column layout */
 #logo-banner-container {
 	display: none;
 }
@@ -10,4 +12,15 @@ main {
 }
 #middle-right-column-group {
 	padding-left: 0;
+}
+
+/* MAIN COLUMN
+Touch up CSS inside main column to look better on mobile */
+#about-us-main-idea {
+	background-image: none;
+	background-color: #DCB439;
+}
+#about-us-main-idea > h3 {
+	margin: auto;
+	padding: 4%; /* Left padding was 0 in non-mobile */
 }
