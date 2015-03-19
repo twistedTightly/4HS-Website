@@ -1,5 +1,5 @@
 /* Initialize Parse */
-Parse.initialize("OzWsADpYPjQNIsbrMUDIhVJOXTxSRwMIew5wZkvZ", "rNdJifpOo8ez8ZvVfhsVpSqNSLZJ4MrD9dDTL8Hl");
+Parse.initialize("XXX", "XXX");
 var Feedback = Parse.Object.extend("Feedback");
 
 /* Input sanitization by removing tags */
